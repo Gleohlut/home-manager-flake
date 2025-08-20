@@ -10,8 +10,8 @@ programs.firefox = {
       name = "Personal";
       search = {
         force = true;
-        default = "DuckDuckGo";
-        privateDefault = "DuckDuckGo";
+        default = "ddg";
+        privateDefault = "ddg";
       };
       settings = {
         "browser.startup.homepage" = "https://start.duckduckgo.com";
@@ -26,8 +26,8 @@ programs.firefox = {
       name = "Work";
       search = {
         force = true;
-        default = "DuckDuckGo";
-        privateDefault = "DuckDuckGo";
+        default = "ddg";
+        privateDefault = "ddg";
       };
       settings = {
         "browser.startup.homepage" = "https://start.duckduckgo.com";
