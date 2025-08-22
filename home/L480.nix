@@ -13,6 +13,9 @@
 
   # Laptop-only examples
   home.packages = with pkgs; [
-    qbittorrent
+    qbittorrent discord spotify
   ];
+  home.sessionVariables = {
+  DISCORD_DISABLE_QUIC = "1";
+};
 }
